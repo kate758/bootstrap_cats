@@ -1,4 +1,7 @@
 
+html {
+  height: 100% /* this stretches the HTML part of the page to fill it vertically, and resize picture to fit */
+}
 
 body {
   background-image: URL(./photo-1415369629372-26f2fe60c467.jpeg);
@@ -11,4 +14,18 @@ body {
 #content {   /*  this will align the center content */
   text-align: center;
   padding-top: 25%;  /* using a % instead of a pixel number makes it responsive */
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), /* Multiple shadows, separated by comma. No space after rgba!*/
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5em;  /* 5 times biggr */
+}
+
+hr {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3); /*-- Adds very slight transparent shadow */
 }
