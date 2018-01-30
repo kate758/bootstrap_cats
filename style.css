@@ -1,0 +1,14 @@
+
+
+body {
+  background-image: URL(./photo-1415369629372-26f2fe60c467.jpeg);
+  background-size: cover; /* this resizes the image as small as possible while stretching across screen */
+  background-position: center; /* this centers the image vertically(?) */
+  font-family: lato;
+  color: white;
+}
+
+#content {   /*  this will align the center content */
+  text-align: center;
+  padding-top: 25%;  /* using a % instead of a pixel number makes it responsive */
+}
